@@ -1,0 +1,16 @@
+//Print the input 
+//Write a program that reads a single line of input and print the given input. 
+//Sample input2- 5
+//Sample output 2- 5 
+
+//code
+
+import java.util.Scanner;
+class Main{
+   public static void main(String[] args){
+      Scanner sc=new Scanner (System.in);
+      int i = sc.nextInt();
+      System.out.println(i);
+   }
+
+}
