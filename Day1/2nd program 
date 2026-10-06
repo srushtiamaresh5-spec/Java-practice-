@@ -1,0 +1,17 @@
+//Print input
+//Write a program that reads a single line of input and print the given input.
+//Sample input 1: Bat 
+//Sample output 1: Bat
+
+//Sample input 2: 5
+//Sample output 2: 5
+
+import java.util.Scanner;
+class Main{
+  public static void main(String args []{
+     Scanner sc=new Scanner(System.in);
+     String s= sc.nextLine();
+     System.out.println(s);
+
+  }
+}
